@@ -1,19 +1,19 @@
-# Akıllı Dosya Yönetim Sistemi
+Dosya Yöneticisi - AES Şifreleme ve Çözme
+Bu proje, dosya yönetimi işlemlerini gerçekleştirmek için .NET platformunda geliştirilmiştir. Ayrıca dosya şifreleme ve çözme işlemleri için AES (Advanced Encryption Standard) algoritmasını kullanmaktadır.
 
-## Sebep ve Amaç
+Kullanım
+Komutlar:
 
-Bu proje, kullanıcıların dosya yönetimini kolaylaştırmak için oluşturulmuştur. Amaç, basit komutlarla dosya oluşturma, listeleme ve silme işlemlerini gerçekleştirebilmektir. Proje, dosya yönetimi konusunda temel bilgileri öğrenmek ve pratik yapmak isteyenler için idealdir.
+listele: Mevcut dosyaları listeler.
+yap: Yeni dosya oluşturur.
+sil: Belirtilen dosyayı siler.
+sifrele: Dosyayı AES algoritmasıyla şifreler.
+coz: Şifrelenmiş dosyayı AES algoritmasıyla çözer.
+AES Şifreleme:
 
-## Kullanım
+Şifreleme ve çözme işlemleri için Key ve IV değerleri sabitlenmiştir.
+Key: 32 bayt (256 bit) uzunluğunda bir anahtar.
+IV: 16 bayt (128 bit) uzunluğunda bir Initialization Vector.
+İletişim
 
-- `listele` komutu: Mevcut dizindeki dosyaları listeler.
-- `yap` komutu: Yeni bir dosya oluşturur.
-- `sil` komutu: Belirtilen dosyayı siler.
-- `exit` komutu: Programı sonlandırır.
-
-## Nasıl Çalıştırılır
-
-1. Proje dosyasını indirin veya klonlayın.
-2. Visual Studio veya herhangi bir C# IDE'sinde açın.
-3. `Program.cs` dosyasını çalıştırın.
-4. Komutları kullanarak dosya yönetimi işlemlerini gerçekleştirin.
+Sorunlar veya geri bildirimler için signed.by.fix hesabından bana ulaşabilirsiniz.
