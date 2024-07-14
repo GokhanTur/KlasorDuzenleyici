@@ -1,19 +1,27 @@
 Dosya Yöneticisi - AES Şifreleme ve Çözme
-Bu proje, dosya yönetimi işlemlerini gerçekleştirmek için .NET platformunda geliştirilmiştir. Ayrıca dosya şifreleme ve çözme işlemleri için AES (Advanced Encryption Standard) algoritmasını kullanmaktadır.
+Bu .NET projesi, dosya yönetimi işlemleri için geliştirilmiştir. Ayrıca dosyaları AES (Advanced Encryption Standard) algoritmasıyla şifrelemek ve çözmek için kullanılmaktadır.
 
 Kullanım
-Komutlar:
+Proje, konsol uygulaması olarak çalışır ve aşağıdaki komutlarla kullanılabilir:
 
-listele: Mevcut dosyaları listeler.
-yap: Yeni dosya oluşturur.
+listele: Mevcut dizindeki dosyaları listeler.
+yap: Yeni bir dosya oluşturur.
 sil: Belirtilen dosyayı siler.
-sifrele: Dosyayı AES algoritmasıyla şifreler.
-coz: Şifrelenmiş dosyayı AES algoritmasıyla çözer.
-AES Şifreleme:
-
-Şifreleme ve çözme işlemleri için Key ve IV değerleri sabitlenmiştir.
+sifrele: Bir dosyayı AES algoritmasıyla şifreler.
+coz: Şifrelenmiş bir dosyayı AES algoritmasıyla çözer.
+AES Şifreleme Detayları
+Şifreleme ve çözme işlemleri için sabit uzunlukta Key ve IV değerleri kullanılır:
 Key: 32 bayt (256 bit) uzunluğunda bir anahtar.
 IV: 16 bayt (128 bit) uzunluğunda bir Initialization Vector.
+Nasıl Kullanılır?
+Projeyi İndirme ve Çalıştırma
+
+Proje dosyalarını indirin.
+Visual Studio veya .NET Core SDK ile açın.
+Proje dosyasını derleyin ve çalıştırın.
+Komut Kullanımı
+
+Konsol ekranında istenen komutları yazarak işlemleri gerçekleştirin.
 İletişim
 
-Sorunlar veya geri bildirimler için signed.by.fix hesabından bana ulaşabilirsiniz.
+Projeyle ilgili herhangi bir sorunuz veya geri bildiriminiz varsa signed.by.fix Instagram hesabından bana ulaşabilirsiniz.
